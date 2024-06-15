@@ -1,0 +1,19 @@
+.lj-p{
+    color:violet
+}
+input{
+    background-color: rgb(0, 0, 0);
+    color: rgb(103, 255, 204);
+}
+label{
+    background-color: rgb(119, 255, 203);
+    color: rgb(0, 0, 0);
+}
+label.hover{
+   color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+form{
+    background-color: rgb(255, 175, 175);
+    background-image: url("public\download.jpg");
+}

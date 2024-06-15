@@ -1,0 +1,80 @@
+<style >
+    /* Add some basic styling to the form */
+    form {
+      max-width: 300px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #f74f81;
+      border: 1px solid #5d4163;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    /* Style the labels and inputs */
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    input[type="text"], input[type="email"], textarea {
+      width: 100%;
+      background-color: darkorchid;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ff7ec5;
+    }
+  
+    /* Add hover effects to the radio buttons */
+    input[type="radio"]:hover + label {
+      color: #337ab7;
+      cursor: pointer;
+    }
+  
+    /* Style the submit button */
+    input[type="submit"] {
+      background-color: #ff96ff;
+      color: #f082ff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  
+    /* Add hover effects to the submit button */
+    input[type="submit"]:hover {
+      background-color: #402266;
+    }
+  
+    /* Style the links */
+    a {
+      text-decoration: none;
+      color: #4f2e75;
+    }
+  
+    /* Add hover effects to the links */
+    a:hover {
+      color: #5ba0a0;
+    }
+  </style>
+  <ul><b><h1 style="background-color: rgb(255, 48, 48); align-items: center;",>     welcome to feedback page   </h1></b></ul>
+  <br><br><br><br>
+  <marquee style="background-color: #ff2f2f;" behavior="" direction="right">thank you please give feedback sir</marquee><hr>
+  <form action="/feedback" method="post" style="background-color: rgb(255, 29, 29);">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea><br><br>
+    <label for="rating">Rating:</label>
+    <input type="radio" id="good" name="rating" value="good">
+    <label for="good">Good</label>
+    <input type="radio" id="very-good" name="rating" value="very-good">
+    <label for="very-good">Very Good</label>
+    <input type="radio" id="bad" name="rating" value="bad">
+    <label for="bad">Bad</label><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  <marquee style="background-color: #ff2525;" behavior="" direction="right">thank you for your feedback sir</marquee><hr>
+
+  <p><a href="/feedback-info">View Feedback Info</a></p>
+  <p><a href="/logout">Log out</a></p>
